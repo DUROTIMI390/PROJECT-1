@@ -1,0 +1,78 @@
+*{
+     text-align:center ;
+     margin: 0;
+
+}
+ .about{
+    background-color: dodgerblue;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
+ span{
+    margin: 10px;
+
+}
+ h1{
+     font-size: 60px;
+
+}
+button{
+   /* background-color:aqua; */
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   border: none;
+   border-radius: 10px;
+}
+.get-started{
+    background-color: dodgerblue;
+    color: white;
+}
+.see-more{
+    background-color: white;
+    color:dodgerblue;
+}
+nav{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.name{
+    display: inline-block;
+    color: dodgerblue;
+    background-color: rgb(237,248,252);
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.description{
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
