@@ -1,0 +1,34 @@
+*{
+    text-align: left;
+    background-color:rgb(2, 2, 27);
+    margin-left: 40px;
+    margin-top: 0px;
+}
+h1{
+    font-family: "funnel-sans",sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    font-style: normal; 
+    height: 70px;
+    word-spacing: 5px;
+}
+h6{
+    font-size:x-small;
+    color: rgb(32, 32, 37);
+    padding: none;
+    margin: none;
+    
+       
+}
+nav{
+    color: white;
+    font-size: xx-small ;
+    background-color:rgb(220, 101, 101);
+    display: inline-block;
+    padding:45px 45px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
