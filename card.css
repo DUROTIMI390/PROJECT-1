@@ -1,0 +1,57 @@
+*{
+    text-align: center ;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-top: 4px;
+}
+.Hobby{
+        text-align: left;
+        font-weight: bolder;
+        font-size: xx-large;
+        color: rgb(51, 51, 93);
+        margin-left: 120px;
+        margin-top: 100px;
+        margin-bottom :100px;
+}
+span{
+    margin-right: 125px;
+    margin-left: 35px;
+    margin-top: 500px;
+
+}
+h1{
+    font-size: xx-large;
+    color: rgb(1, 1, 1);
+    font-weight: bolder;
+}
+li{
+        text-align: left;
+        margin-left:510px;
+        padding: 10px;
+    
+ }
+ .Price{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+    padding: 10px;
+    margin: 90px;
+ }
+ nav{
+    display:inline-block;
+    color:rgb(57, 57, 71);
+    background-color: rgb(245, 247, 247);
+    font-weight: bold;
+    padding: 20px 100px;
+    padding-bottom: 20px;
+    margin: 30px;
+    margin-top: 10px;
+ }
+ .description{
+    color: rgb(110, 111, 111);
+   margin-bottom: 1px; 
+   text-align: left;
+   margin-left: 505px;
+   padding:0px;
+ }
