@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-1{
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            gap: 20px;
+
+        }.grid-1> div{
+            background-color: lightcoral;
+            padding: 50px;
+        }
+        .grid-2{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin-top: 20px;
+            gap: 20PX;
+        }.grid-2 >div{
+            background-color: aqua;
+            padding: 30px;
+        }
+        .grid-3{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px ,1fr));
+            margin-top: 40px;
+            gap: 20px;
+        }
+        .grid-3 >div{
+            background-color: dodgerblue;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-1">
+
+        <div>box 1</div>
+        <div>box 2</div>
+        <div>box 3</div>
+        <div>box 4</div>
+        <div>box 5</div>
+        <div>box 6</div>
+    </div>
+
+<section>
+    <div class="grid-2">
+     <div>box A</div>
+     <div>box B</div>
+     <div>box C</div>
+     <div>box D</div>
+     <div>box E</div>
+     <div>box F</div>
+     <div>box G</div>
+     <div>box H</div>
+    </div>
+
+</section>
+<section>
+    <div class="grid-3">
+     <div>box I</div>
+     <div>box II</div>
+     <div>box III</div>
+     <div>box IV</div>
+
+    </div>
+</section>
+     
+</body>
+</html>
