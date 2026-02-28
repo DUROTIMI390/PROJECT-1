@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #074f5e;
+        }
+        .content{
+            background-color: rgb(244, 244, 248);
+            display: flex;
+            width: 65%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
+        }
+        .text-overlay{
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            transform: translateY(-50%);
+
+        }
+        .ovl-h1{
+            font-size: 2rem;
+            font-weight: bold;
+            margin: none;
+
+        }
+        .ovl-h4{
+            font-size: medium;
+            font-weight: bold;
+            margin: none;
+        }
+        form{
+            background-color: white;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+         .inputs{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+         }
+         input{
+            padding-right: 5.5rem;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 10px;
+            outline: none;
+            border: solid rgb(120, 119, 119) 1px;
+            border-radius: 4px;
+         }
+         .join{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 7px 0%;
+            width: 100%;
+            border-radius: 7px;
+            margin-top: 10px;
+        }
+        .divider{
+            border-bottom: 1px solid rgb(184, 184, 184);
+            width: 100px;
+
+        }
+        .divider-parents{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .google{ 
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 7px 0%;
+            width: 100%;
+            border-radius: 7px;
+            margin-top: 5px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+        <div class="text-overlay">
+            <h1 class="ovl-h1" >Create your <br>Account</h1>
+            <span class="ovl-h2">share your artwork<br>and get project</span>
+        </div>
+        <img 
+        src="https://tse1.mm.bing.net/th/id/OIP.kTfmFmQuVvMX2XaniNnivAHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3"
+        alt="image"
+        style="border-radius: 10px;"
+        />
+        <form action="">
+            <h2 style="text-align: center;">Sign up</h2>
+          <div class="inputs">
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+            <input type="email" placeholder="Email address">
+            <input type="password" placeholder="password">
+          </div>
+          <div class="Tc" style="margin-top: 20px;">
+           <input type="checkbox"/> Accept terms & conditions<br/>
+           <button class="join">join us</button>
+          </div>
+           <div class="divider-parents">
+           <div class="divider"></div>
+           <p style="margin-left: 10px; margin-right: 10px;" >or</p>
+           <div class="divider"></div>
+           </div> <button class="google">Sign up with Google</button>
+           <button class="join">Sign up with Apple</button>
+
+        </form>
+        </div>
+    </div>
+    <!--<form action="">
+        <label for="firstname">firstname</label>
+        <input id="firstname" type="text" placeholder="enter firstname"
+        />
+        <br/>
+        <label for="">number</label>
+        <input type="number"/><br/>
+        <label for="">password</label>
+        <input type="password"/>
+        <br/>
+        <label for="">Gender</label>
+        <input type="radio-name" id="" value="female"/> female
+        <input type="radio-name" id="" value="male"/> male
+        <br/>
+        <input type="date"/>
+    </form>-->
+    
+</body>
+</html>
